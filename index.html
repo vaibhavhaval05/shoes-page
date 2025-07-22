@@ -1,41 +1,115 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Landing Page</title>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="bootstrap.min.css">
-    
-  </head>
-  <body>
-    <div class="container">
-    <section class="img">
-    <header>
-      <h1>Shoes for men and women</h1>
-    </header>
-    
-        <h2>Explore our collection of shoes</h2>
-        <h4>
-          about shoes
-        </h4>
-        <p>Men's and women's shoes are designed with different considerations in mind, primarily focusing on fit,
-             support, and style. Men's shoes often feature wider widths, thicker materials, and more durable soles to accommodate 
-             broaders feet and support heavier body weight. Women's shoes, on the other hand, tend to be narrower, lighter, 
-            and more flexible, often with extra padding in the arch for enhanced comfort.</p>
-        <ul >
-          <li><a href="https://g.co/kgs/sv4TrcY">Men's shoes</a></li>
-          <li><a href="https://g.co/kgs/psWRWCu">Women's shoes</a></li>
-          <li><a href="https://g.co/kgs/STmVNPb">Kids' shoes</a></li>
-        </ul><br>
-        
-        <div class="image-container">
-  <img src="nike1.avif" height="300px" width="250px">
-  <img src="nike2.jpg" height="300px" width="250px">
-  <img src="nike3.jpeg" height="300px" width="250px">
-</div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shoe Landing Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background-color: #1b1919;
+      color: white;
+      margin: 0;
+    }
 
+    header {
+      background: linear-gradient(#e63946, #161a16);
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+      margin: 2rem 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    }
+
+    section {
+      padding: 5%;
+      background-color: rgb(146, 200, 184);
+      text-align: left;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+      border-radius: 20px;
+      transition: all 0.3s ease;
+      color: black;
+    }
+
+    section h2, h4 {
+      color: #0b0b0b;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    ul li a {
+      text-decoration: none;
+      color: #e63946;
+    }
+
+    .image-container {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .image-container img {
+      border-radius: 20px;
+      transition: transform 0.3s ease;
+      max-width: 100%;
+      height: 300px;
+      width: 250px;
+      object-fit: cover;
+    }
+
+    .image-container img:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Shoes for Men and Women</h1>
+    </header>
+
+    <section>
+      <h2>Explore Our Collection of Shoes</h2>
+      <h4>About Shoes</h4>
+      <p>
+        Men's and women's shoes are designed with different considerations in mind,
+        primarily focusing on fit, support, and style. Men's shoes often feature
+        wider widths, thicker materials, and more durable soles to accommodate
+        broader feet and support heavier body weight. Women's shoes, on the other hand,
+        tend to be narrower, lighter, and more flexible, often with extra padding
+        in the arch for enhanced comfort.
+      </p>
+
+      <ul>
+        <li><a href="https://g.co/kgs/sv4TrcY" target="_blank">Men's Shoes</a></li>
+        <li><a href="https://g.co/kgs/psWRWCu" target="_blank">Women's Shoes</a></li>
+        <li><a href="https://g.co/kgs/STmVNPb" target="_blank">Kids' Shoes</a></li>
+      </ul>
+
+      <div class="image-container">
+        <img src="nike1.avif" alt="Nike Shoe 1">
+        <img src="nike2.jpg" alt="Nike Shoe 2">
+        <img src="nike3.jpeg" alt="Nike Shoe 3">
+      </div>
     </section>
-    </div>
-    <script src="bootstrap.bundle.min.js"></script>
-  </body>
+  </div>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
 </html>
