@@ -41,7 +41,7 @@ section {
 .image-container img {
   border-radius: 2px;
   transition: transform 0.3s ease;
-  width: 200px; 
+  width: 400px; 
   height: auto;
 }
 
