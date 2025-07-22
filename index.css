@@ -1,7 +1,7 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
   background-color: #1b1919;
-  display: flex;
+  margine:0;
 }
 
 header {
@@ -30,7 +30,9 @@ section {
   border-radius: 20px;
   transition: all 0.3s ease;
 }
-
+.container {
+  padding: 20px;
+}
 
 .image-container {
   display: flex;
@@ -43,8 +45,8 @@ section {
 .image-container img {
   border-radius: 20px;
   transition: transform 0.3s ease;
-  width:40px;
-  height:40px;
+  width: 200px; 
+  height: auto;
 }
 
 .image-container img:hover {
