@@ -43,7 +43,8 @@ section {
 .image-container img {
   border-radius: 20px;
   transition: transform 0.3s ease;
-  max-width: 100%;
+  width:40px;
+  height:40px;
 }
 
 .image-container img:hover {
